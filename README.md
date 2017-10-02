@@ -1,4 +1,6 @@
 # McAfee-ATD-Phantom
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 This App integrates the orchestration platform Phantom with McAfee Advanced Threat Defense (ATD). This App provides the capability to submit files and receive Threat Intelligence information. This App supports the following actions:
 
 1. run the file in the McAfee ATD and retrieve the analysis results - **detonate file**
