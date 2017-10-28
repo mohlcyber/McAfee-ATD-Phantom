@@ -3,16 +3,17 @@
 
 This App integrates the orchestration platform Phantom with McAfee Advanced Threat Defense (ATD). This App provides the capability to submit files and receive Threat Intelligence information. This App supports the following actions:
 
-1. run the file in the McAfee ATD and retrieve the analysis results - **detonate file**
-2. validate the ATD connectivity - **test connectivity**
+1. Run the file in the sandbox and retrieve the analysis results - **detonate file**
+2. URL link is processed inside analyzer VM and retrieve the analysis results - **detonate url**
+3. Validate the asset configuration for connectivity using supplied configuration - **test connectivity**
 
 More actions will follow in the future.
 
 ## Prerequisits
 
-Phantom Platform tested with version 2.1.486
+Phantom Platform tested with version 3.0.251
 
-McAfee Advanced Threat Defense (ATD) tested with 3.8.2
+McAfee Advanced Threat Defense (ATD) tested with 4.0.4
 
 ## Component Description
 
@@ -33,7 +34,7 @@ Click test connectivity. This will try to connect to the ATD appliance and recei
 
 <img width="629" alt="screen shot 2017-08-09 at 11 04 03" src="https://user-images.githubusercontent.com/25227268/29113818-7f1b4356-7cf2-11e7-8b9e-0998ffbf3b0a.png">
 
-By detonating a file in ATD - the Phantom platform will wait until ATD finished the analysis and pull all attributes (indicators of compromise) into the platform.
+By detonating a file / detonating a url in ATD - the Phantom platform will wait until ATD finished the analysis and pull all attributes (indicators of compromise) into the platform.
 
 ## Summary
 
