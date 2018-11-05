@@ -12,9 +12,9 @@ More actions will follow in the future.
 
 ## Prerequisits
 
-Phantom Platform tested with version 3.0.251
+Phantom Platform tested with version 4.1.94
 
-McAfee Advanced Threat Defense (ATD) tested with 4.0.4
+McAfee Advanced Threat Defense (ATD) tested with 4.4.2
 
 ## Component Description
 
