@@ -5,7 +5,8 @@ This App integrates the orchestration platform Phantom with McAfee Advanced Thre
 
 1. Run the file in the sandbox and retrieve the analysis results - **detonate file**
 2. URL link is processed inside analyzer VM and retrieve the analysis results - **detonate url**
-3. Validate the asset configuration for connectivity using supplied configuration - **test connectivity**
+3. Retrieve the result for an analysis from McAfee ATD - **get report**
+4. Validate the asset configuration for connectivity using supplied configuration - **test connectivity**
 
 More actions will follow in the future.
 
