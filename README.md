@@ -25,15 +25,15 @@ McAfee Advanced Threat Defense (ATD) tested with 4.4.2
 ## Configuration
 Download the Latest release, open the Phantom Platform and and go to Apps. Under Apps click install app and upload the tgz file. 
 
-<img width="1052" alt="screen shot 2017-08-09 at 10 59 41" src="https://user-images.githubusercontent.com/25227268/29113641-e8cca52a-7cf1-11e7-9f6c-37fe28ae9593.png">
+<img width="1407" alt="screenshot 2018-11-05 at 11 30 29" src="https://user-images.githubusercontent.com/25227268/47992869-594f2f00-e0ee-11e8-8c27-ca10eba28573.png">
 
 Configure a new asset and provide an asset name. In the asset settings define the ATD IP address, username, password and profile ID that should be used for the analysis.
 
-<img width="746" alt="screen shot 2017-08-09 at 11 01 49" src="https://user-images.githubusercontent.com/25227268/29113726-31e32b76-7cf2-11e7-8eab-7e28c7695538.png">
+<img width="707" alt="screenshot 2018-11-05 at 11 30 53" src="https://user-images.githubusercontent.com/25227268/47992888-666c1e00-e0ee-11e8-9854-b9957ac5c6a8.png">
 
 Click test connectivity. This will try to connect to the ATD appliance and receive the latest profile list.
 
-<img width="629" alt="screen shot 2017-08-09 at 11 04 03" src="https://user-images.githubusercontent.com/25227268/29113818-7f1b4356-7cf2-11e7-8b9e-0998ffbf3b0a.png">
+<img width="909" alt="screenshot 2018-11-05 at 11 31 08" src="https://user-images.githubusercontent.com/25227268/47992907-74ba3a00-e0ee-11e8-8a15-89661d586112.png">
 
 By detonating a file / detonating a url in ATD - the Phantom platform will wait until ATD finished the analysis and pull all attributes (indicators of compromise) into the platform.
 
