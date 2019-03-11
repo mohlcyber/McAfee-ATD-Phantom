@@ -1,8 +1,6 @@
 # McAfee-ATD-Phantom
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-**The current Phantom ATD app does not work with ATD version 4.6.0.21. I am looking into this.**
-
 This App integrates the orchestration platform Phantom with McAfee Advanced Threat Defence (ATD). This App provides the capability to submit files and urls to receive threat intelligence information. This App supports the following actions:
 
 1. Run the file in the sandbox and retrieve the analysis results - **detonate file**
